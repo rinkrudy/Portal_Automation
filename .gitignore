@@ -1,0 +1,60 @@
+# -----------------------------
+#  Frontend(node) 관련 무시
+# -----------------------------
+# node_modules가 프로젝트 하위 다른 위치에도 있을 수 있다면(예: monorepo 구조)
+**/node_modules/
+client/node_modules/
+
+# yarn/npm 관련 로그 파일
+yarn-error.log
+npm-debug.log
+
+# -----------------------------
+#  Backend(django) 관련 무시
+# -----------------------------
+**/env_portal/
+
+# python cache 파일
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 가상환경 디렉터리(추가적으로 사용하시는 폴더가 있다면 아래에 추가)
+venv/
+env/
+.venv/
+env_portal/
+
+# django 환경 변수 파일
+*.env
+
+# -----------------------------
+#  OS별 / IDE별 무시
+# -----------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# JetBrains IDE
+.idea/
+
+*.xlsx
+*.zip
+*.xls
+*.csv
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.txt
+

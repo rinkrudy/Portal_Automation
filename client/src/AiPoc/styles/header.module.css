@@ -1,0 +1,51 @@
+.analysisSteps {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-saddlebrown);
+    font-family: var(--font-prociono);
+    position: relative;
+  }
+  
+  .stepTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .landingFrame {
+    font-size: var(--font-size-xl);
+    font-weight: bold;
+  }
+  
+  .redTeaming {
+    border-radius: var(--br-8xs);
+    background-color: var(--color-firebrick);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1875rem var(--padding-9xs) var(--padding-11xs);
+    text-align: center;
+    font-size: var(--font-size-3xs);
+    color: var(--color-white);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .multiTurn {
+    margin: 0;
+  }
+  
+  .redTeaming1 {
+    margin: 0;
+  }
+  

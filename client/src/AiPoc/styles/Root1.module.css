@@ -1,0 +1,332 @@
+.kcAiAudit {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+}
+.stepFive {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 var(--padding-sm);
+}
+.generativeAiAnalysis {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 130%;
+  color: var(--color-black);
+  text-align: left;
+}
+.stepFour,
+.stepThree {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stepFour {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.stepThree {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-lg) 0 var(--padding-mid);
+}
+.aiAuditing,
+.inProgress {
+  margin: 0;
+}
+.aiAuditingInContainer {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 130%;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-black);
+}
+.progressSteps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 54px;
+}
+.generativeAnalysis {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.frameChild {
+  width: 577px;
+  height: 297px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.kcAiAudit1 {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  z-index: 1;
+}
+.spotlights {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 166px;
+}
+.auditFactualityChild {
+  height: 116px;
+  width: 546px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslategray-200);
+  display: none;
+  max-width: 100%;
+}
+.inTermsOf {
+  margin: 0;
+}
+.factuality {
+  font-family: var(--font-inter);
+}
+.factualityIndicates {
+  margin: 0;
+}
+.faithfulness {
+  font-family: var(--font-inter);
+}
+.faithfulnessIndicates {
+  margin: 0;
+}
+.harmfulness {
+  font-family: var(--font-inter);
+}
+.harmfulnessIndicates {
+  margin: 0;
+}
+.indicates,
+.performance {
+  font-family: var(--font-inter);
+}
+.performanceIndicates {
+  margin: 0;
+}
+.inTermsOfContainer {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.auditFactuality,
+.spotlightContent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.auditFactuality {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslategray-200);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-3xs) var(--padding-mid);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.spotlightContent {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.modelTypesChild {
+  width: 265px;
+  height: 114px;
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.discriminativeMl {
+  width: 195px;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  z-index: 2;
+}
+.blankLine,
+.modelsLinearRegression {
+  margin: 0;
+}
+.evaluationFairnessExplaina {
+  margin: 0;
+  color: var(--color-saddlebrown);
+}
+.modelsLinearRegressionContainer {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  z-index: 2;
+}
+.modelExamples {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-pridi);
+}
+.modelTypes,
+.modelTypesItem {
+  background-color: var(--color-whitesmoke-200);
+}
+.modelTypes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-4xs) var(--padding-6xs);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+  min-width: 172px;
+  z-index: 1;
+}
+.modelTypesItem {
+  width: 265px;
+  height: 114px;
+  position: relative;
+  display: none;
+}
+.generativeAi {
+  width: 185px;
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  z-index: 2;
+}
+.modelsOpenSourceegLlama {
+  margin: 0;
+}
+.apiKeyFor {
+  margin: 0;
+  color: var(--color-dimgray-100);
+}
+.blankLine1 {
+  margin: 0;
+}
+.evaluationFactualityFaithf {
+  margin: 0;
+  color: var(--color-saddlebrown);
+}
+.modelsOpenSourceegLlamaContainer {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  z-index: 2;
+}
+.modelsOpenSourceegLlamaWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-pridi);
+}
+.modelTypes1 {
+  flex: 1;
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-8xs) var(--padding-4xs) var(--padding-6xs);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+  min-width: 172px;
+  z-index: 1;
+}
+.mLModels,
+.modelTypes1,
+.rectangleParent,
+.root {
+  display: flex;
+  justify-content: flex-start;
+}
+.mLModels {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 16px;
+  text-align: left;
+  color: var(--color-saddlebrown);
+}
+.rectangleParent,
+.root {
+  max-width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-base);
+  font-family: var(--font-prociono);
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-gainsboro-100);
+  align-items: flex-start;
+  padding: var(--padding-smi) var(--padding-sm) var(--padding-sm)
+    var(--padding-mid);
+  gap: 13px;
+  color: var(--color-black);
+}
+.root {
+  width: 800px;
+  background-color: var(--color-white);
+  align-items: flex-end;
+  padding: var(--padding-mid) 112px 0 111px;
+  gap: 41px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--color-saddlebrown);
+}
+@media screen and (max-width: 500px) {
+  .spotlights {
+    padding-left: var(--padding-64xl);
+    padding-right: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aiAuditingInContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .root,
+  .spotlights {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .root {
+    gap: var(--gap-xl);
+  }
+}

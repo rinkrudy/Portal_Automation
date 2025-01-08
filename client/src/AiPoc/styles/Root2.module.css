@@ -1,0 +1,216 @@
+.icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .aiAudit {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 130%;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .aIAudit {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 217px 0 218px;
+  }
+  .aiTrendsWithin {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 130%;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .frameChild {
+    align-self: stretch;
+    height: 23px;
+    position: relative;
+    background-color: var(--color-white);
+    z-index: 1;
+  }
+  .koreaTrends,
+  .koreaTrendsTitle,
+  .koreaTrendsTitleInner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .koreaTrendsTitleInner {
+    width: 97px;
+    flex-direction: column;
+    padding: var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+    margin-left: -157px;
+  }
+  .koreaTrends,
+  .koreaTrendsTitle {
+    width: 211px;
+    flex-direction: row;
+  }
+  .koreaTrends {
+    width: 479px;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .newsletterBodyChild {
+    width: 326px;
+    height: 114px;
+    position: relative;
+    background-color: var(--color-darkslategray-200);
+    display: none;
+    max-width: 100%;
+  }
+  .h3 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: center;
+  }
+  .aiitSystemCenter,
+  .h3,
+  .kcAiTechnical {
+    position: relative;
+    line-height: 130%;
+    z-index: 2;
+  }
+  .kcAiTechnical {
+    margin: 0;
+    align-self: stretch;
+    font-size: var(--font-size-2xs);
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .aiitSystemCenter {
+    font-size: var(--font-size-6xs-5);
+    font-weight: 500;
+  }
+  .newsletterIntro {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .regulationUpdates {
+    width: 50px;
+    position: relative;
+    font-size: var(--font-size-8xs);
+    line-height: 130%;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 2;
+  }
+  .newsletterBody {
+    flex: 1;
+    background-color: var(--color-darkslategray-200);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs) var(--padding-smi) var(--padding-mini)
+      var(--padding-base);
+    box-sizing: border-box;
+    gap: 18px;
+    min-width: 212px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .newsletterDescription,
+  .newsletterDescription1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-9xs);
+  }
+  .newsletterDescription {
+    max-width: 100%;
+  }
+  .newsletterDescription1 {
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .koreaTrendsContainer,
+  .newsletterHeader,
+  .root {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .newsletterHeader {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: var(--gap-4xs);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-6xs);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .koreaTrendsContainer,
+  .root {
+    align-items: flex-end;
+    text-align: center;
+    font-family: var(--font-prociono);
+  }
+  .koreaTrendsContainer {
+    align-self: stretch;
+    gap: 12px;
+    max-width: 100%;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+  }
+  .root {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    padding: var(--padding-lg) 157px 11px 152px;
+    box-sizing: border-box;
+    gap: 201px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+  }
+  @media screen and (max-width: 675px) {
+    .newsletterDescription {
+      flex-wrap: wrap;
+    }
+    .root {
+      gap: 100px;
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .aIAudit {
+      padding-left: 109px;
+      padding-right: 108px;
+      box-sizing: border-box;
+    }
+  }
+  

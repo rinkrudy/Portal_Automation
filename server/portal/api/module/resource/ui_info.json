@@ -1,0 +1,96 @@
+{
+    "Naver" : {
+        "Map" : {
+            "url" : "https://map.naver.com/p?c=15.00,0,0,0,dh",
+            "ui" : {
+                "길찾기" : {
+                    "type" : "xpath",
+                    "value" : "//span[text()='길찾기']",
+                    "ui_type" : "button"
+                },
+                "네비게이션" : {
+                    "type" : "xpath",
+                    "value" : "//button[contains(text(), '길찾기')]",
+                    "ui_type" : "button"
+                },
+                "출발지" : {
+                    "type" : "xpath",
+                    "value" : "//label[contains(text(),'출발지')]/following-sibling::input",
+                    "ui_type" : "input"
+                },
+                "도착지" : {
+                    "type" : "xpath",
+                    "value" : "//label[contains(text(),'도착지')]/following-sibling::input",
+                    "ui_type" : "input"
+                },
+                "다시입력" : {
+                    "type" : "xpath",
+                    "value" : "//button[text()='다시입력']",
+                    "ui_type" : "button"
+                },
+                "거리측정" : {
+                    "type" : "xpath",
+                    "value" : "//button[.//span[text()='거리측정']]",
+                    "ui_type" : "button"
+                },
+                "Start" : {
+                    "type" : "xpath",
+                    "value" : "div[type=\\'start\\']",
+                    "ui_type" : "icon"
+                },
+                "Goal" : {
+                    "type" : "xpath",
+                    "value" : "div[type=\\'goal\\']",
+                    "ui_type" : "Icon"
+                },
+                "거리" : {
+                    "type" : "css_selector",
+                    "value" : "div.label_box em.point",
+                    "ui_type" : "icon"
+                },
+                "단위" : {
+                    "type" : "css_selector",
+                    "value" : "div.label_box",
+                    "ui_type" : "icon"
+
+                }
+            }
+        },
+        "Portal" :{
+            "url" : "https://naver.com",
+            "ui" : {
+                "검색창" : {
+                    "type" : "id",
+                    "value" : "query", 
+                    "ui_type" : "input"
+                }
+            }
+        }
+    },
+    "Google" : {
+        "Search" : {
+            "url" : "https://google.com",
+            "ui" : {
+                "검색창" : {
+                    "type" : "name",
+                    "value" : "q",
+                    "ui_type" : "input"
+                }
+                
+            }
+        }
+    },
+    "Bing" : {
+        "Search" : {
+            "url" : "https://bing.com",
+            "ui" : {
+                "검색창" : {
+                    "type" : "id",
+                    "value" : "sb_form_q",
+                    "ui_type" : "input"
+                }
+                
+            }
+        }
+    }
+}

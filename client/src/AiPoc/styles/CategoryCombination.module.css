@@ -1,0 +1,96 @@
+.categoryCombinationChild {
+  width: 250px;
+  height: 153px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+}
+.categorySeparator,
+.faitheval {
+  position: relative;
+  line-height: 130%;
+  z-index: 2;
+}
+.categorySeparator {
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  min-width: 7px;
+}
+.faithEvalCategory {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.faithfulness {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+}
+.faithfulnessCategory {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) 0 var(--padding-3xs);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.salesforceAiResearch {
+  position: relative;
+  line-height: 130%;
+  display: inline-block;
+  min-width: 119px;
+  z-index: 2;
+}
+.categoryCombination,
+.salesforceCategory {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-sm);
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-100);
+}
+.categoryCombination {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-xl) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+  min-width: 120px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-prociono);
+}
+@media screen and (max-width: 1200px) {
+  .categoryCombination {
+    width: auto;
+    align-self: unset;
+    height: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .faithfulness {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+}

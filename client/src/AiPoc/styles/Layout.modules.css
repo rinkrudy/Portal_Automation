@@ -1,0 +1,51 @@
+/* Layout.css */
+
+/* 1단 열 레이아웃 */
+.single-column {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 2단 열 레이아웃 */
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* 왼쪽 사이드바, 오른쪽 메인 콘텐츠 */
+  gap: 16px;
+}
+
+/* 3단 열 레이아웃 */
+.three-column {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 16px;
+}
+
+/* 헤더-메인-푸터 레이아웃 */
+.header-main-footer {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.header {
+  grid-row: 1;
+}
+
+.main {
+  grid-row: 2;
+  overflow-y: auto;
+}
+
+.footer {
+  grid-row: 3;
+}
+
+/* 카드 그리드 레이아웃 */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}

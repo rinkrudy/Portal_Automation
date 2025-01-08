@@ -1,0 +1,40 @@
+{
+    "NAVER": {
+        "HOME": {
+            "url": "naver.com",
+            "ui": {
+                "button_login": {
+                    "type": "xpath",
+                    "selector": "a.MyView-module__login_more___Qaa3P",
+                    "ui_type": "button"
+                }
+            }
+        },
+        "LOGINPAGE": {
+            "url" : "https://nid.naver.com/nidlogin.login?mode=form&url=https://www.naver.com/",
+            "ui": {
+                "editbox_id": {
+                    "type": "xpath",
+                    "selector": "a.MyView-module__login_more___Qaa3P",
+                    "ui_type": "editbox"
+                },
+                "editbox_pw": {
+                    "type": "xpath",
+                    "selector": "a.MyView-module__login_more___Qaa3P",
+                    "ui_type": "editbox"
+                }
+            }
+        }
+    },
+    "Google" : {
+        "Search" : {
+            "url" : "https://google.com",
+            "ui" : {
+                "검색창" : {
+                    "type" : "name","selector" : "q","ui_type" : "input"
+                }
+                
+            }
+        }
+    }
+}

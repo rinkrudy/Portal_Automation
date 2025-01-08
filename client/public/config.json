@@ -1,0 +1,8 @@
+{
+    "Mode" : "AiPoc",
+    "ModeList" : [
+        "AiPoc",
+        "HealthCare",
+        "IpOA"
+    ]
+}
